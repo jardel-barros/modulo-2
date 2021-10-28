@@ -1,0 +1,81 @@
+body
+{
+  background-color: rgb(70, 75, 75);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  border-image: url(https://image.flaticon.com/icons/svg/1828/1828961.svg)
+}
+header
+{
+  widows: 600px;
+  background-color: darkgrey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+header > div#cicle
+{
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 5px 3px 7px 1px rgba(16, 12, 12, 0.706);
+}
+nav
+{
+  background-color: rgb(20, 5, 8);
+  padding: 3px;
+  border-radius: 5px;
+  /* 'box-shadow'
+  1 px -> deslocamento horizontal direita ou esquerda
+  2 px -> deslocamento vertical para acima ou para baixo 
+  3 px -> espalhamento da sombra
+  4 px -> espassamento
+  */
+  box-shadow: 5px 3px 7px 1px rgba(16, 12, 12, 0.706); 
+}
+nav > a
+{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+nav > a:hover
+{
+  text-decoration: underline;
+  animation: go-back 1s infinite alternate;
+  color:#40E0D0;
+}
+main
+{
+  background-color: darkgrey;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+article
+{
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+article > aside
+{
+  background-color: rgb(209, 188, 188);
+}
+footer
+{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin: 0px;
+  border-radius: 5px;
+}
+footer > p
+{
+  margin: 0px;
+}  

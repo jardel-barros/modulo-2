@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <link rel="stylesheet" href="">
+    <!--cores em gradiente-->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+        
+        @font-face {
+            font-family:'Olondon';
+            src: url('fonts/Olondon_.otf') format('opentype'), url('fonts/OldLondon.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                1 opentype(otf)
+                2 truetype(ttf)
+                3 enbedded-opentype
+                4 truetype-aat
+                5 svg
+            */
+        }
+
+        body
+        {
+
+           font-family: 'Olondon', Arial, Verdana, sans-serif;
+            
+        }
+
+        h1
+        {
+
+           font-family: 'Olondon', Times, serif;
+             
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    
+    <h1>Usando fontes externas baixadas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Quas consequatur culpa corporis, maiores beatae cumque recusandae itaque deserunt qui sapiente nihil voluptas et
+        nesciunt quo esse molestiae.
+        Labore, nam sequi?</p>
+    
+
+    
+
+
+</body>
+
+</html>
